@@ -23,3 +23,6 @@ fi
 Like in the bottom of [this bashrc file](https://github.com/tianhuil/dotfiles/blob/73eaf1a4fabf5e8be974f4b30ad67546ae544db8/.bashrc)
 
 This appears to work in both OSX and Ubuntu.
+
+# Results
+The results are [in here](https://github.com/thedataincubator/gae-db-test/blob/master/analysis/Untitled.ipynb)
