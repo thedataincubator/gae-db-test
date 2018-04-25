@@ -1,3 +1,7 @@
 dependencies:
 - requests
+- jupyter
+- ipython
+- pandas
+- matplotlib
 - pip

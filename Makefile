@@ -8,4 +8,7 @@ lib:
 	$(CONDA_ENV) && pip install -t lib -r requirements.txt
 
 server: lib
-	dev_appserver.py app.yaml --admin_port 8001 --port 8081
+	FLASK_DEBUG=1 dev_appserver.py app.yaml --admin_port 8001 --port 8081
+
+jupyter:
+	$(CONDA_ENV) && jupyter notebook --port 8889
